@@ -1,0 +1,184 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+   
+}
+
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+    right: 30%;
+}
+
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.features-class{
+    padding: 5%;
+}
+
+.f-div{
+    text-align: center;
+}
+
+.features-text{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.f-icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.f-text2{
+    color: #8f8f8f;
+}
+
+.f-icons:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+.testimonials-img{
+    border-radius: 100%;
+    margin: 20px;
+    display: inline;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.cst{
+    align-items: center;
+}
+
+.f-button{
+    width: 100%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.text-cta{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.download-button2{
+    margin: 4% 1%;
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+
+.faic{
+    margin: 10px 20px;
+}
+
+.footer-p{
+    display: inline;
+}
+
+
+@media (max-width:1020px) {
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
